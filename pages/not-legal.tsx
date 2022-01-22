@@ -8,13 +8,7 @@ export default function NotLegalPage() {
         <title>Not legal in Italy</title>
       </Head>
       <h1 className='text-4xl text-white mb-10'>NOT LEGAL IN ITALY</h1>
-      <Image
-        src="/notpineapplepizza.png"
-        width={200}
-        height={200}
-        layout='fixed'
-        className='rounded-xl'
-      />
+      <img src="/notpineapplepizza.png" />
     </div>
     )
 }
