@@ -13,7 +13,7 @@ export function middleware(req: NextRequest) {
   }
 
   if (country === BLOCKED_COUNTRY) {
-    return NextResponse.redirect('/not-legal', 451)
+    return NextResponse.redirect('/not-legal')
   }
   return NextResponse.next()
 }
