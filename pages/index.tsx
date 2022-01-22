@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import pineApplePizza from '../public/pineapplepizza.png'
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       </Head>
       <h1 className='text-4xl text-white mb-10'>Yummy Pineapple Pizza</h1>
       <Image
-        src="/pineapplepizza.png"
+        src={pineApplePizza}
         width={200}
         height={200}
         layout='fixed'
