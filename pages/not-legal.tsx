@@ -9,9 +9,9 @@ export default function NotLegalPage() {
       </Head>
       <h1 className='text-4xl text-white mb-10'>NOT LEGAL IN ITALY</h1>
       <Image
-        src="/notpineapplepizza.png"
-        width={400}
-        height={400}
+        src="notpineapplepizza.png"
+        width={200}
+        height={200}
         layout='fixed'
         className='rounded-xl'
       />

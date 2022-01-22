@@ -10,11 +10,14 @@ export default function Home() {
       <h1 className='text-4xl text-white mb-10'>Yummy Pineapple Pizza</h1>
       <Image
         src="/pineapplepizza.png"
-        width={400}
-        height={400}
+        width={200}
+        height={200}
         layout='fixed'
         className='rounded-xl'
       />
+      <button className="bg-purple-700 text-white px-6 py-2 rounded-lg mt-10 shadow-lg"
+        onClick={() => alert(`We will deliver in ${Math.random()} sec`)}
+      >Order Now</button>
     </div>
   )
 }
