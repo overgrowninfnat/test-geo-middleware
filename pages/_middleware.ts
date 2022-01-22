@@ -1,4 +1,4 @@
-import type { NextRequest } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 
 // Block Austria, prefer Germany
 const BLOCKED_COUNTRY = 'IT'
@@ -9,5 +9,5 @@ export function middleware(req: NextRequest) {
   if (country === BLOCKED_COUNTRY) {
     return new Response('Blocked for legal reasons', { status: 451 })
   }
-  return new Response(`Greetings from ${country}, where you are not blocked.`)
+  return NextResponse.next()
 }
