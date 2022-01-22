@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="w-screen h-screen bg-purple-400 flex flex-col justify-center items-center">
       <Head>
-        <title>Pineapple Pizza | Not for italians</title>
+        <title>Pineapple Pizza</title>
       </Head>
       <h1 className='text-4xl text-white mb-10'>Yummy Pineapple Pizza</h1>
       <Image

@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server'
 const BLOCKED_COUNTRY = 'IT'
 
 export function middleware(req: NextRequest) {
-  const country = req.geo?.country || 'US'
+  const country = req.geo?.country
   
   if(req.nextUrl.pathname === '/not-legal') {
       if(country === BLOCKED_COUNTRY) {

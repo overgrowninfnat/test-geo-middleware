@@ -9,7 +9,7 @@ export default function NotLegalPage() {
       <Head>
         <title>Not legal in Italy</title>
       </Head>
-      <h1 className='text-4xl text-white mb-10'>NOT LEGAL IN ITALY</h1>
+      <h1 className='text-4xl text-white mb-10'>PINEAPPLE PIZZA IS NOT LEGAL IN ITALY</h1>
       <Image
         src={notPineApplePizza}
         width={200}
